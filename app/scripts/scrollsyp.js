@@ -1,7 +1,6 @@
 $(document).ready(function() {
     $('#container').scrollspy({
-        min: $(this).offset().top,
-        max: $(this).offset() + $(this).height,
+        min: 400,
         onEnter: function(element, position) {
             $('#popbox-wrapper').animate({
                 right: '+= 250px'
