@@ -1,0 +1,26 @@
+#popbox-wrapper {
+	height: 75px;
+	width: 250px;
+	position: fixed;
+	bottom: 20px;
+	right: -250px;
+}
+
+.popbox-wrapper-out {
+right: 250px;
+}
+.popbox-wrapper-in {
+right: -250px;
+}
+
+
+.popbox-container {
+	height: 75px;
+	width: 250px;
+	background-color: white;
+}
+
+.popbox-container img {
+	max-width: 50px;
+	min-height: 50px;
+}
